@@ -1,0 +1,24 @@
+pid=8816 tid=25696 2023-07-21 14:08:04.687 ALARM demo.exe logger "-----------------  log4z thread started!   ----------------------------" LogerManager::run (log4z.cpp):1710
+pid=8816 tid=25696 2023-07-21 14:08:04.687 ALARM demo.exe logger "logger id=0 key=main name=demo path=./log/ level=1 display=1" LogerManager::run (log4z.cpp):1722
+pid=8816 tid=16780 2023-07-21 14:08:04.691 INFO  demo.exe demo "test=200" wWinMain (demo.cpp):191
+pid=8816 tid=16780 2023-07-21 14:08:04.691 ERROR demo.exe demo "log output using ansi format,str=test, tick=321850640" wWinMain (demo.cpp):192
+pid=8816 tid=16780 2023-07-21 14:08:04.691 ERROR demo.exe demo "log output using unicode format,str=中文, tick=321850640" wWinMain (demo.cpp):193
+pid=8816 tid=16780 2023-07-21 14:08:04.905 DEBUG demo.exe soui "Warning: no object wkewebkit of type:1 in SOUI!!" SOUI::SObjectFactoryMgr::CreateObject (sobjectfactory.cpp):61
+pid=8816 tid=16780 2023-07-21 14:08:04.905 DEBUG demo.exe soui "OnUrlReNotify,iNotify = 512" CMainDlg::OnUrlReNotify (maindlg.cpp):743
+pid=8816 tid=16780 2023-07-21 14:08:04.991 DEBUG demo.exe soui "warning!!! create iectrl failed bacause of host is translucent!" SOUI::SIECtrl::OnCreate (siectrl.cpp):125
+pid=8816 tid=16780 2023-07-21 14:08:04.997 DEBUG demo.exe soui "FindChildByName2 Failed, no window of class [S3DView] with name of [3d_test] was found within [-1] levels" SOUI::SWindow::FindChildByName2 (swnd.h):526
+pid=8816 tid=16780 2023-07-21 14:08:04.997 DEBUG demo.exe soui "FindChildByName2 Failed, no window of class [S3DView] with name of [3d_test] was found within [-1] levels" SOUI::SWindow::FindChildByName2 (swnd.h):526
+pid=8816 tid=16780 2023-07-21 14:08:04.997 DEBUG demo.exe soui "FindChildByName2 Failed, no window of class [S3DView] with name of [3d_test] was found within [-1] levels" SOUI::SWindow::FindChildByName2 (swnd.h):526
+pid=8816 tid=16780 2023-07-21 14:08:05.017 INFO  demo.exe soui "OnInitDialog" CMainDlg::OnInitDialog (maindlg.cpp):278
+pid=8536 tid=12152 2023-07-21 14:12:03.524 ALARM demo.exe logger "-----------------  log4z thread started!   ----------------------------" LogerManager::run (log4z.cpp):1710
+pid=8536 tid=12152 2023-07-21 14:12:03.524 ALARM demo.exe logger "logger id=0 key=main name=demo path=./log/ level=1 display=1" LogerManager::run (log4z.cpp):1722
+pid=8536 tid=15988 2023-07-21 14:12:03.528 INFO  demo.exe demo "test=200" wWinMain (demo.cpp):191
+pid=8536 tid=15988 2023-07-21 14:12:03.528 ERROR demo.exe demo "log output using ansi format,str=test, tick=322089468" wWinMain (demo.cpp):192
+pid=8536 tid=15988 2023-07-21 14:12:03.528 ERROR demo.exe demo "log output using unicode format,str=中文, tick=322089468" wWinMain (demo.cpp):193
+pid=8536 tid=15988 2023-07-21 14:12:03.702 DEBUG demo.exe soui "Warning: no object wkewebkit of type:1 in SOUI!!" SOUI::SObjectFactoryMgr::CreateObject (sobjectfactory.cpp):61
+pid=8536 tid=15988 2023-07-21 14:12:03.702 DEBUG demo.exe soui "OnUrlReNotify,iNotify = 512" CMainDlg::OnUrlReNotify (maindlg.cpp):743
+pid=8536 tid=15988 2023-07-21 14:12:03.766 DEBUG demo.exe soui "warning!!! create iectrl failed bacause of host is translucent!" SOUI::SIECtrl::OnCreate (siectrl.cpp):125
+pid=8536 tid=15988 2023-07-21 14:12:03.771 DEBUG demo.exe soui "FindChildByName2 Failed, no window of class [S3DView] with name of [3d_test] was found within [-1] levels" SOUI::SWindow::FindChildByName2 (swnd.h):526
+pid=8536 tid=15988 2023-07-21 14:12:03.771 DEBUG demo.exe soui "FindChildByName2 Failed, no window of class [S3DView] with name of [3d_test] was found within [-1] levels" SOUI::SWindow::FindChildByName2 (swnd.h):526
+pid=8536 tid=15988 2023-07-21 14:12:03.771 DEBUG demo.exe soui "FindChildByName2 Failed, no window of class [S3DView] with name of [3d_test] was found within [-1] levels" SOUI::SWindow::FindChildByName2 (swnd.h):526
+pid=8536 tid=15988 2023-07-21 14:12:03.793 INFO  demo.exe soui "OnInitDialog" CMainDlg::OnInitDialog (maindlg.cpp):278
