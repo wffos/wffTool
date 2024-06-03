@@ -1,0 +1,36 @@
+﻿// WffContexMenu.idl: WffContexMenu 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(WffContexMenu.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(c511bf0f-ff00-4cf5-aa9e-0a3619951772),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IExplorerMenu : IDispatch
+{
+};
+[
+	uuid(cf384bcc-50dd-4a67-8025-b17005091e51),
+	version(1.0),
+]
+library WffContexMenuLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(4516bc6a-a646-4ba0-bfa6-6e1baf550da8)
+	]
+	coclass ExplorerMenu
+	{
+		[default] interface IExplorerMenu;
+	};
+};
+
+import "shobjidl.idl";

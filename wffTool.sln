@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WffTool", "WffTool\WffTool.vcxproj", "{4FFD55FB-181D-47EE-B4A8-6A9D20636502}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WffContexMenu", "WffContexMenu\WffContexMenu.vcxproj", "{67F3A901-770E-4691-81F5-FEF099417713}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WffContexMenuPS", "WffContexMenuPS\WffContexMenuPS.vcxproj", "{A58C3670-7D40-422E-9B46-E5FDDF21E525}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67F3A901-770E-4691-81F5-FEF099417713} = {67F3A901-770E-4691-81F5-FEF099417713}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FFD55FB-181D-47EE-B4A8-6A9D20636502}.Release|x64.ActiveCfg = Release|Win32
+		{4FFD55FB-181D-47EE-B4A8-6A9D20636502}.Release|x86.ActiveCfg = Release|Win32
+		{4FFD55FB-181D-47EE-B4A8-6A9D20636502}.Release|x86.Build.0 = Release|Win32
+		{67F3A901-770E-4691-81F5-FEF099417713}.Release|x64.ActiveCfg = Release|x64
+		{67F3A901-770E-4691-81F5-FEF099417713}.Release|x64.Build.0 = Release|x64
+		{67F3A901-770E-4691-81F5-FEF099417713}.Release|x86.ActiveCfg = Release|Win32
+		{67F3A901-770E-4691-81F5-FEF099417713}.Release|x86.Build.0 = Release|Win32
+		{A58C3670-7D40-422E-9B46-E5FDDF21E525}.Release|x64.ActiveCfg = Release|x64
+		{A58C3670-7D40-422E-9B46-E5FDDF21E525}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {122362A0-325B-4E19-823A-A9FE51E52213}
+	EndGlobalSection
+EndGlobal

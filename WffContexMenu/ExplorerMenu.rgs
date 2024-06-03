@@ -1,0 +1,16 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {4516bc6a-a646-4ba0-bfa6-6e1baf550da8} = s 'ExplorerMenu class'
+		{
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{cf384bcc-50dd-4a67-8025-b17005091e51}'
+			Version = s '1.0'
+		}
+	}
+}
